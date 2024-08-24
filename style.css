@@ -5,17 +5,18 @@ section {
     position: relative;
 }
 
-section::before {
+.about::before, .portfolio::before, .contact::before {
     z-index: -1;
-    content: '';
-    font-size: 72px;
+    content: attr(data-title);
+    font-size: 64px;
     font-weight: 700;
     color: gray;
     opacity: 0.25;
     position: absolute;
     top: 20px;
-    left: -30px;
+    left: 35px;
 }
+
 
 .btn.button {
     border: 3px solid black;
@@ -131,6 +132,31 @@ section::before {
 
 #port3:hover::after {
     content: 'Web Project';
+}
+
+.contact {
+    padding: bottom 128px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px 16px 32px; 
+    border-radius: 20px 20px 20px 20px; 
+    margin-bottom: 20px; 
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+.icon-small {
+    width: 30px; /* Ukuran kecil untuk Instagram dan Facebook */
+    height: 30px;
+    object-fit: contain; /* Menjaga proporsi gambar */
 }
 
 @keyframes upDown {
