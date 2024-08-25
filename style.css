@@ -20,7 +20,7 @@ section {
 
 .btn.button {
     border: 3px solid black;
-    border-radius: 24px;
+    border-radius: 15px;
 }
 
 .btn.button:hover, 
@@ -43,9 +43,12 @@ section {
     font-size: 48px;
 }
 
+.home img {
+    width: 100%;
+}
+
 .home .arrow img {
     width: 60px;
-
 }
 
 .img-fluid {
@@ -75,8 +78,16 @@ section {
     content: 'About';
 }
 
+p {
+    text-align: justify;
+}
+
 .portfolio::before{
     content: 'Portfolio';
+}
+
+.portfolio-container .row {
+    margin-bottom: 32px; 
 }
 
 .port-img {
@@ -88,6 +99,7 @@ section {
 
 .port-img-item {
     position: relative;
+    
 }
 
 .port-img-item:hover:after {
@@ -134,15 +146,27 @@ section {
     content: 'Web Project';
 }
 
+.contact-container {
+    position: relative;
+    padding: 2rem;
+}
+
 .contact {
     padding: bottom 128px;
 }
 
 .contact::before {
-    content: 'Contact';
+    content: 'Get in Touch!';
+    display: block;
+    
+    font-weight: bold;
+    margin-bottom: 1rem; 
+    text-align: center;
 }
 
 .contact-form {
+    margin-top: 6rem; 
+    width: 100%;
     border: 1px solid black;
     padding: 64px 32px 16px 32px; 
     border-radius: 20px 20px 20px 20px; 
@@ -154,9 +178,30 @@ section {
 }
 
 .icon-small {
-    width: 30px; /* Ukuran kecil untuk Instagram dan Facebook */
-    height: 30px;
-    object-fit: contain; /* Menjaga proporsi gambar */
+    width: 24px; 
+}
+
+.row.d-flex.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-12.col-lg-6 {
+    margin-bottom: 2rem; 
+}
+
+@media only screen and (max-width: 768px) {
+    .home img{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    section::before {
+        left: -10px;
+        font-size: 50px;
+    }
 }
 
 @keyframes upDown {

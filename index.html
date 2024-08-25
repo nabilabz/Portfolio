@@ -17,177 +17,281 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       <section id="home" class="home-container">
-        <div class="row d-flex align-items-center">
-          <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+          <div class="col 12 col-md-8">
           <h3 class="fw-semibold">Hi, I am</h3>
-          <h1 class="fw-bold">Ambar Nabilah</h1>
-          <p>I am undergraduate of Information Systems student</p>
-          <a class="btn button" href="./Assets/foto.png" download>Resume</a>
+          <h1 class="fw-bold">Ambar Nabilah Fuzaini</h1>
+          <p>I am Undergraduate Information Systems Student at Binus University</p>
+          <a class="btn button" href="./Assets/AMBAR NABILAH FUZAINI - CV.pdf" download>Download Resume</a>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col 12 col-md-4 col-sm-12 d-flex justify-content-md-end justify-content-center">
           <img class="img-fluid" src="./Assets/foto.png" alt="Your Photo">
         </div>
         </div>
-        <div class="arrow w-100 d-flex align-items-center flex-column mt--5">
-          <a class="text-decoration-none text-dark" href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt--5">
+          <div class="text-dark fw-bold">More Info</div>
           <img id="arrow" class="mt-2" src="./Assets/arrow.svg" alt="arrow icon">
-        </div>
+        </a>
       </section>
       <section id="about" class="about-container about" data-title="About">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quidem alias magni obcaecati repellat error quaerat at iure officia, rerum, in temporibus provident. Quidem quas vero cumque eum alias quibusdam dignissimos nobis, consequatur tempore, eligendi voluptatibus? Sequi veritatis ipsa voluptatum.</p>
+        <p>Information Systems student with a keen interest in UI/UX and Web Development, actively seeking opportunities to leverage my skills. Experienced in designing intuitive and functional user interfaces and building responsive, user-friendly websites. Skilled in combining creative design with technology to create effective and engaging digital solutions. I am passionate about continuous learning and am eager to contribute to innovative projects in the tech industry.</p>
+        <!-- skills -->
         <div class="about-exp">
           <div class="about-exp-item">
             <div class="about-exp-item-header">
                 <div>
-                  <h5>Freshmen Leader</h5>
-                  <p>BINUS University (2023)</p>
+                  <h5>Skills</h5>
+                  <p>Here you can see summary of my skills. Field of front-end and UI/UX Design</i></p>
                 </div>
                 <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                  <p class="about-exp-item-detail">Lorem ipsum dolor sit amet.</p>
+                <ul class="about-exp-item-detail">
+                  <LI>Microsoft Office</LI>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                  <li>Canva</li>
+                  <li>Figma</li>
+                </ul> 
             </div>
         </div>
+        <br>
+        <h2 class="fw-bold">Experience</h2>
+        
+        <!-- himsisfo -->
+        <div class="about-exp">
+          <div class="about-exp-item">
+              <div class="about-exp-item-header">
+                  <div>
+                      <h5>Activist and Vice Coordinator Division in Human Resource Development</h5>
+                      <p>HIMSISFO BINUS University <i>(Feb 2023 – Now)</i></p>
+                  </div>
+                  <button class="btn button" onclick="toggleDetail(event)">More Info</button>
+              </div>
+              <ul class="about-exp-item-detail">
+                  <li><b>Events Division Coordinator in the PkM 2023: IMPACT</b>
+                      <ul>
+                          <li>Create rundowns for five days of events.</li>
+                          <li>Led a team of 5 people in planning, organising and executing the organisation's event successfully.</li>
+                          <li>Coordinate team members, ensure all tasks are done on time, and motivate team members to achieve shared targets.</li>
+                          <li>Make strategic decisions relating to events.</li>
+                          <li>Guide during games activities in the d-day event.</li>
+                      </ul>
+                      <br>
+                  </li>
+                  <li><b>Support Division Coordinator in the SELCAVIS 2023: CINEMA</b>
+                      <ul>
+                          <li>Created more than 5 required broadcasts.</li>
+                          <li>Created master data for activist candidates.</li>
+                          <li>Responsible for master data in Alam Sutera region.</li>
+                          <li>Created Google form for registration.</li>
+                          <li>Successfully met participant target number.</li>
+                          <li>Broadcast all the important information to participants.</li>
+                      </ul>
+                      <br>
+                  </li>
+                  <li><b>Events Division Coordinator in the DIG IN 2023: STRATEGY</b>
+                      <ul>
+                          <li>Led an event division team of 6 members.</li>
+                          <li>Collaborated effectively with other divisions.</li>
+                          <li>Developed concepts for webinars and workshops.</li>
+                          <li>Created schedules for 3 major events.</li>
+                          <li>Developed a guidebook for external partners.</li>
+                          <li>Responsible for selecting external collaborators, such as MCs, performers, and speakers for webinars.</li>
+                          <li>Managed to get as many as 64 teams to register for DIG IN within 1 month.</li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+        <!-- FP -->
         <div class="about-exp">
           <div class="about-exp-item">
             <div class="about-exp-item-header">
                 <div>
-                  <h5>Freshmen Leader</h5>
-                  <p>BINUS University (2023)</p>
+                  <h5>Freshmen Partner (FP) BINUSIAN 2027</h5>
+                  <p>BINUS University <i>(Sept 2023 – Jun 2024)</i></p>
                 </div>
                 <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                  <p class="about-exp-item-detail">Lorem ipsum dolor sit amet.</p>
+                  <ul class="about-exp-item-detail">
+                    <li>Mentoring 10 Freshmen in the first year of study</li>
+                    <li>Responsible for accompanying 10 Freshmen during the first year.</li>
+                    <li>Assist and guide Freshmen in the first year of study</li>
+                    <li>Resolve any challenges that freshmen encounter during first year</li>
+                  </ul> 
             </div>
         </div>
+        <!-- Fl -->
         <div class="about-exp">
           <div class="about-exp-item">
             <div class="about-exp-item-header">
                 <div>
-                  <h5>Freshmen Leader</h5>
-                  <p>BINUS University (2023)</p>
+                  <h5>Freshmen Leader (FL) BINUSIAN 2027</h5>
+                  <p>BINUS University <i>(July 2023 – Sept 2023)</i></p>
                 </div>
                 <button class="btn button" onclick="toggleDetail(event)">More Info</button>
                 </div>
-                  <p class="about-exp-item-detail">Lorem ipsum dolor sit amet.</p>
+                <ul class="about-exp-item-detail">
+                  <li>Lead a team of 10 Freshmen during OTP Batch 1 activities.</li>
+                  <li>Provide guidance and support to Freshmen throughout FYP activities.</li>
+                  <li>Directing and maintaining smooth mobilization during Inauguration.</li>
+                  <li>Observe and monitor the well-being and behavior of freshmen throughout the orientation period.</li>
+                  <li>Resolve any challenges that freshmen encounter during orientation.</li>
+                  <li>Facilitate the smooth transition of freshmen into their academic life, ensuring that BINUSIAN students are prepared and motivated for their studies.</li>
+                </ul> 
             </div>
         </div>
       </section>
       <section id="portfolio" class="portfolio-container portfolio" data-title="Portfolio">
         <!-- Baris 1 -->
         <div class="row d-flex align-items-center">
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate eaque unde dicta, porro nesciunt obcaecati atque a necessitatibus quam cum quas quisquam? Iusto sapiente consectetur rerum maxime nemo labore!</p>
+            <div class="col-12 col-md-6">
+                <h3>WheelHub Web Project</h3>
+                <p>This is a team project consisting of three students. Here's an overview of the wheelHub project. WheelHub is a collaborative team project developed by a leading automotive retailer, which has been a pioneer since 1995. The launch of its state-of-the-art website marks a significant expansion in its innovation. Renowned for its high-quality cars and accessories across the US, WheelHub's new online platform aims to redefine the automotive shopping experience.
+
+                  The website features a virtual showroom that highlights WheelHub's commitment to performance and style, catering for a range of needs from sedans to SUVs. The site includes five main pages: Home, Promotions, Registration, All Cars and About Us, each designed for clarity and engagement.
+                  
+                  Fully responsive, the website ensures a seamless experience across desktops, tablets and smartphones, providing a consistent and enjoyable user experience on any device.</p>
+
+                <a href="https://nabilabz.github.io/CarWebsite/">Click Here to Visit CarWebsite!</a>
             </div>
-            <div class="col-md-6 port-img">
+            <div class="col-12 col-md-6 port-img">
                 <div id="port1" class="port-img-item">
-                  <img src="./Assets/work-1.png" alt="port1" >
+                  <img src="./Assets/wheelHub MockUp.png" alt="port1" >
                 </div>
                 <div id="port2" class="port-img-item">
-                  <img src="./Assets/work-2.png" alt="port2" >
+                  <img src="./Assets/wheelHub mockUp2.png" alt="port2" >
                 </div>
                 <div id="port3" class="port-img-item">
-                  <img src="./Assets/work-3.png" alt="port3" >
+                  <img src="./Assets/wheelHub MockUp3.png" alt="port3" >
                 </div>
             </div>
         </div>
-    
+        <hr>
         <!-- Baris 2 -->
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate eaque unde dicta, porro nesciunt obcaecati atque a necessitatibus quam cum quas quisquam? Iusto sapiente consectetur rerum maxime nemo labore!</p>
-          </div>
+              <h3>Webcraft Studio </h3>
+              <p>Webcraft is a personal project developed using HTML, and CSS. WebCraft Studio is a website developed to help businesses build a strong and effective digital presence. is a website interface developed for companies to showcase a service required in web development. WebCraft Studio has a mission to provide digital solutions that not only meet, but exceed client expectations.</p>
+              <a href="https://nabilabz.github.io/webcraft/">Click Here to Visit WebCraft!</a>
+            </div>
           <div class="col-md-6 port-img">
               <div id="port1" class="port-img-item">
-                <img src="./Assets/work-1.png" alt="port1" >
+                <img src="./Assets/webcraft mockUp1.png" alt="port1" >
               </div>
               <div id="port2" class="port-img-item">
-                <img src="./Assets/work-2.png" alt="port2" >
+                <img src="./Assets/webcraft mockup2.png" alt="port2" >
               </div>
               <div id="port3" class="port-img-item">
-                <img src="./Assets/work-3.png" alt="port3" >
+                <img src="./Assets/webcraft mockup3.png" alt="port3" >
               </div>
           </div>
       </div>
-    
+      <hr>
         <!-- Baris 3 -->
         <div class="row d-flex align-items-center">
           <div class="col-md-6">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptate eaque unde dicta, porro nesciunt obcaecati atque a necessitatibus quam cum quas quisquam? Iusto sapiente consectetur rerum maxime nemo labore!</p>
-          </div>
+              <h3>CampEase Store</h3>
+              <p>Campease is an innovative platform that combines HTML, CSS, and JavaScript to simplify the calculation of camping equipment rental costs. With a strong focus on functionality and ease of use, Campease offers an effective solution to calculate the total cost of renting your camping equipment.
+
+                Through a simple yet functional interface, users can easily select the equipment they want to rent, set the rental duration, and get an automatic cost estimation.</p>
+                
+                <a href="https://nabilabz.github.io/CampEase/">Click Here to Visit CampEase!</a>
+              </div>
           <div class="col-md-6 port-img">
               <div id="port1" class="port-img-item">
-                <img src="./Assets/work-1.png" alt="port1" >
+                <img src="./Assets/campease mockUp1.png" alt="port1" >
               </div>
               <div id="port2" class="port-img-item">
-                <img src="./Assets/work-2.png" alt="port2" >
+                <img src="./Assets/campease mockUp2.png" alt="port2" >
               </div>
               <div id="port3" class="port-img-item">
-                <img src="./Assets/work-3.png" alt="port3" >
+                <img src="./Assets/campease mockUp3.png" alt="port3" >
+              </div>
+          </div>
+      </div>
+      <hr>
+        <!-- Baris 4 -->
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+              <h3>PathFinder</h3>
+              <p>PathFinder is an application designed to make it easier for users to search and compare different schools. In addition, PathFinder also comes with a registration feature that simplifies the process of applying to the school of choice, making it an efficient and practical tool for prospective students and parents. PathFinder is a UI/X Design that was developed using Figma</p>
+                <a href="https://bit.ly/PathFinderUI">Click Here to Visit PathFinder!</a>
+              </div>
+          <div class="col-md-6 port-img">
+              <div id="port1" class="port-img-item">
+                <img src="./Assets/pathFinder mockUp2.png" alt="port1" >
+              </div>
+              <div id="port2" class="port-img-item">
+                <img src="./Assets/pathFinder mockUp3.png" alt="port2" >
+              </div>
+              <div id="port3" class="port-img-item">
+                <img src="./Assets/pathFinder mockUp1.png" alt="port3" >
               </div>
           </div>
       </div>
       </section>
       <section id="contact" class="contact-container contact" data-title="Contact">
-        <div class="row d-flex align-items-center gap-5">
-          <div class="col">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, itaque quidem impedit repellendus adipisci eveniet quibusdam! Accusantium, molestias eos odit totam magni laboriosam autem labore voluptates laborum ut officiis et harum? Iure exercitationem odio dolor hic, laborum reiciendis eveniet assumenda!</p>
-            <div class="row">
-              <div class="col d-flex align-items-center">
-                <img src="./Assets/iconmonstr-linkedin-3.svg" alt="linkedin">
-                <p>Ambar Nabilah Fuzaini</p>
-              </div>
-              <div class="col d-flex align-items-center">
-                <img src="./Assets/Facebook.svg" alt="facebook" class="icon-small">
-                <p>Ambar Nabilah Fuzaini</p>
-              </div>
-              <div class="col d-flex align-items-center">
-                <img src="./Assets/Instagram.svg" alt="instagram" class="icon-small">
-                <p>@_nabilabz</p>
-              </div>
+        <div class="row d-flex flex-column align-items-center gap-5">
+            <div class="col-12 col-lg-6">
+                <form class="contact-form" onsubmit="onFormSubmit(event)">
+                    <div class="mb-3">
+                        <label for="inp_email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="inp_email" placeholder="Input your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inp_subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inp_message" class="form-label">Message</label>
+                        <input type="text" class="form-control" id="inp_message" placeholder="Your Message">
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                        <button type="submit" class="btn button">Submit</button>
+                    </div>
+                </form>
             </div>
-          </div>
-          <div class="col">
-            <form class="contact-form" onsubmit="onFormSubmit(event)">
-              <div class="mb-3">
-                <label for="inp_email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="inp_email" placeholder="Input your email">
-              </div>
-              <div class="mb-3">
-                <label for="inp_subject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="inp_subject" placeholder="Your Subject">
-              </div>
-              <div class="mb-3">
-                <label for="inp_message" class="form-label">Message</label>
-                <input type="text" class="form-control" id="inp_message" placeholder="Your Message">
-              </div>
-              <div class="d-flex justify-content-center mt-5">
-                <button type="submit" class="btn button">Submit</button>
-              </div>
-              
-            </form>
-          </div>
+            <div class="col-12 d-flex flex-column align-items-center">
+                <div class="row d-flex align-items-center gap-3">
+                    <div class="col d-flex align-items-center">
+                        <img class="w-25" src="./Assets/iconmonstr-linkedin-3.svg" alt="linkedin" class="icon-small">
+                        <a class="mb-0 ms-2 text-bold text-decoration-none text-dark" href="https://www.linkedin.com/in/ambarnabilah/">Ambar Nabilah Fuzaini</a>
+                        
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img class="w-25" src="./Assets/Facebook.svg" alt="facebook" class="icon-small">
+                        <a class="mb-0 ms-2 text-bold text-decoration-none text-dark" href="https://www.facebook.com/ambar.nabilah">Ambar Nabilah Fuzaini</a>
+                     
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <img class="w-25" src="./Assets/Instagram.svg" alt="instagram" class="icon-small">
+                        <a class="mb-0 ms-2 text-bold text-decoration-none text-dark" href="https://www.instagram.com/_nabilabz/">@_nabilabz</a>
+                      
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
-    
-
-
-
+    </section>
+  
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
