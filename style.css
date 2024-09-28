@@ -60,6 +60,8 @@ section {
     animation: 2s upDown infinite;
 }
 
+
+
 .about-exp-item {
     margin-top: 24px;
 }
@@ -70,7 +72,7 @@ section {
     justify-content: space-between;
 }
 
-.about-exp-item-detail {
+.about-skill-item-detail {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -78,7 +80,7 @@ section {
     padding: 0;
   }
   
-.about-exp-item-detail li {
+.about-skill-item-detail li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,14 +89,14 @@ section {
     text-align: center; 
   }
   
-.about-exp-item-detail img {
+.about-skill-item-detail img {
     display: block;
     margin-bottom: 5px;
     width: 50px; 
     height: auto;
 }
   
-.about-exp-item-detail p {
+.about-skill-item-detail p {
     margin-top: 5px;
     font-size: 14px;
     font-weight: 600;

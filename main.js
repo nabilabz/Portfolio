@@ -17,6 +17,7 @@ function toggleDetail(e) {
     });
 }
 
+
 function onFormSubmit(e) {
     e.preventDefault()
     const email = $("#inp_email")
